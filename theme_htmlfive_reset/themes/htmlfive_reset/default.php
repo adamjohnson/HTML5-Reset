@@ -6,14 +6,6 @@ $this->inc('elements/header.php'); // get header file ?>
 
 <div class="wrapper"><!-- not needed? up to you: http://camendesign.com/code/developpeurs_sans_frontieres -->
 
-	<?php  
-      $u = new User();
-     
-      if ($u->isLoggedIn()) { ?>
-        <div style="min-height:80px;"></div>
-    <?php  } ?>
-
-
 	<h1 id="logo"><!--
 			--><a href="<?php    echo DIR_REL?>/"><?php    
 				$block = Block::getByName('My_Site_Name');  
