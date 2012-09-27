@@ -152,15 +152,6 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 
 
 
-/* Print styles!
--------------------------------------------------------------------------------*/
-@media print {
-
-
-
-}
-
-
 /* Media queries!
 -------------------------------------------------------------------------------*/
 
@@ -179,3 +170,12 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 }
 
 /* customize_miscellaneous */ /* customize_miscellaneous 
+
+
+/* Print styles!
+-------------------------------------------------------------------------------*/
+@media print {
+
+
+
+}
