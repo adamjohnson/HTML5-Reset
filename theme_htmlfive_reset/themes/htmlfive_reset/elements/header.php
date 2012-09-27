@@ -1,14 +1,13 @@
 <?php    defined('C5_EXECUTE') or die(_("Access Denied.")); ?>
 <!DOCTYPE html>
-<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="<?php   echo LANGUAGE?>"> <![endif]-->
-<!--[if IE 7 ]> <html class="ie ie7 no-js" lang="<?php   echo LANGUAGE?>"> <![endif]-->
-<!--[if IE 8 ]> <html class="ie ie8 no-js" lang="<?php   echo LANGUAGE?>"> <![endif]-->
-<!--[if IE 9 ]> <html class="ie ie9 no-js" lang="<?php   echo LANGUAGE?>"> <![endif]-->
-<!--[if gt IE 9]><!--><html class="no-js" lang="<?php   echo LANGUAGE?>"><!--<![endif]-->
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="<?php echo LANGUAGE?>"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="<?php echo LANGUAGE?>"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="<?php echo LANGUAGE?>"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="<?php echo LANGUAGE?>"> <!--<![endif]-->
 <!-- the "no-js" class is for Modernizr. -->
 <head>
 
-<?php    Loader::element('header_required'); // makes Concrete5 edit bar show up ?> 
+<?php Loader::element('header_required'); // makes Concrete5 edit bar show up ?> 
 
 <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
