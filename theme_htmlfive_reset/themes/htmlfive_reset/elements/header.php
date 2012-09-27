@@ -38,7 +38,8 @@ maximum-scale = 1.0 retains dimensions instead of zooming in if page width < dev
 <!-- NOTE: The Concrete5 marketplace requires typography.css. You may delete it if you do not use it -->
 	
 <!-- all our JS is at the bottom of the page, except for Modernizr. -->
-<script src="<?php    echo $this->getThemePath(); ?>/_/js/modernizr-1.7.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+<script>window.jQuery || document.write('<script src="<?php echo $this->getThemePath(); ?>/_/js/modernizr-2.6.2.min.js"><\/script>')</script>
 
 <meta name="google-site-verification" content="">
 <!-- Don't forget to set your site up: http://google.com/webmasters -->
