@@ -13,7 +13,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
 <meta name="author" content="Your Name Here">
-<meta name="Copyright" content="Copyright Your Name Here 2011. All Rights Reserved.">
+<!-- <meta name="copyright" content="Copyright Your Name Here 2011. All Rights Reserved."> -->
 
 <!-- Dublin Core Metadata : http://dublincore.org/ 
 <meta name="DC.title" content="Project Name">
