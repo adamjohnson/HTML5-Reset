@@ -6,16 +6,10 @@ $this->inc('elements/header.php'); // get header file ?>
 
 <div class="wrapper"><!-- not needed? up to you: http://camendesign.com/code/developpeurs_sans_frontieres -->
 
-	<h1 id="logo"><!--
-			--><a href="<?php    echo DIR_REL?>/"><?php    
-				$block = Block::getByName('My_Site_Name');  
-				if( $block && $block->bID ) $block->display();   
-				else echo SITE;
-			?></a><!--
-		--></h1>
+    <a id="logo" href="<?php echo DIR_REL?>"><?php echo SITE ?></a>
 
 	<header>
-            <?php    $this->inc('elements/nav.php'); // get nav.php ?>
+            <?php $this->inc('elements/nav.php'); // get nav.php ?>
     </header>
 
     <article>
@@ -32,4 +26,4 @@ $this->inc('elements/header.php'); // get header file ?>
         ?>
     </aside> <!-- close aside -->
 
-<?php       $this->inc('elements/footer.php'); // get footer.php ?>
+<?php $this->inc('elements/footer.php'); // get footer.php ?>
