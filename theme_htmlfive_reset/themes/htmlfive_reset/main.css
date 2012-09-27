@@ -1,4 +1,4 @@
-/* Blank HTML5 Reset Theme for Concrete5 compiled by Adam Johnson
+ Blank HTML5 Reset Theme for Concrete5 compiled by Adam Johnson
  * http://adamjohnsondesign.com | Twitter: @adamj_design
  * Main CSS Document. Put your styles here */
 
@@ -79,9 +79,8 @@ select, input, textarea {font: 99% sans-serif;}
 
 table {font-size: inherit; font: 100%;}
 
-/* Accessible focus treatment
-	people.opera.com/patrickl/experiments/keyboard/test */
-a:hover, a:active {outline: none;}
+/* Improving focus accessibility */
+a:focus {outline: thin dotted;}
 
 small {font-size: 85%;}
 
@@ -179,4 +178,4 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 
 }
 
-/* customize_miscellaneous */ /* customize_miscellaneous */
+/* customize_miscellaneous */ /* customize_miscellaneous 
