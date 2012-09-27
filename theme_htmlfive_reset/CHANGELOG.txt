@@ -1,3 +1,4 @@
+2.2 - Moved files to Github, see https://github.com/adamjohnson/HTML5-Reset/commits/master for most recent changes
 2.1 - Updated theme to be compatible with C5.5's new edit bar. 12/18/2011.
 2.01 - Updated theme to newest styles.css. Added dynamic language call via php to html tag. Changed semicolons to commas in mobile viewport. Updated functions.js to latest version on GitHub. 9-16-11
 2.00 - Updated HTML5 Reset Concrete5 theme to conincide with version 2 via HTML5Reset.org. Much improved. 4-20-11

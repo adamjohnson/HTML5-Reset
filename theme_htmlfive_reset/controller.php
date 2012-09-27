@@ -6,7 +6,7 @@ class ThemeHtmlfiveResetPackage extends Package {
 
 	protected $pkgHandle = 'theme_htmlfive_reset';
 	protected $appVersionRequired = '5.1.1';
-	protected $pkgVersion = '2.1';
+	protected $pkgVersion = '2.2';
 
 	public function getPackageDescription() {
 		return t("Installs the
