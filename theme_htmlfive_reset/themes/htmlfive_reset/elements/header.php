@@ -6,8 +6,7 @@
 <!--[if IE 9 ]> <html class="ie ie9 no-js" lang="<?php   echo LANGUAGE?>"> <![endif]-->
 <!--[if gt IE 9]><!--><html class="no-js" lang="<?php   echo LANGUAGE?>"><!--<![endif]-->
 <!-- the "no-js" class is for Modernizr. -->
-
-<head id="www-sitename-com" data-template-set="html5-reset">
+<head>
 
 <?php    Loader::element('header_required'); // makes Concrete5 edit bar show up ?> 
 
